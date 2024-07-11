@@ -3,179 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
-    <header class="header">
-<a href="#home" class="logo">Mahnoor
-<span>Fatima</span> </a>
-
-<i class="bx bx-menu" id="menu-icon"></i>
-   
-    <nav class="navbar">
-<a href="#home" style="color:var(--main-color)">Home</a>
-<a href="#about"  style="color:var(--main-color)">About</a>
-<a href="#services"   style="color:var(--main-color)"    >Services</a>
-<a href="#contact"  style="color:var(--main-color)"    >Contact</a>
-    </nav>
-</header>
-
-<section class="home" id="home">
-<div class="home-img">
-    <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaW5hdnBuZJAuZf8oXSk5M9L5IeOV8asLRKw&s   " alt="#">
-</div>
-<div class="home-content">
-<h1>It's <span>Mahnoor Fatima</span></h1>
-  <h3>I am a
-<br><span class="text" style="color:var(--main-color)"></span>
-  </h3>  
- <p>I am excited about the prospect of contributing to impactful projects in a collaborative and dynamic work environment. I am eager to join a team where I can apply my skills, contribute to innovative solutions, and continue my growth as a professional in the field of web development.</p>
-
- <div class="social-icons">
-<a href="https://www.linkedin.com/in/mahnoor-fatima-a82585281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-    <i class=" fa-brands fa-linkedin"></i>
-</a>
-
-<a href="https://wa.me/03229644082" target="_blank">
-    <i class="fa-brands fa-whatsapp"></i>
-</a>
-<a href="#">
-    <i class=" fa-brands fa-facebook"></i>
-</a>
-<a href="https://github.com/MahnoorFatima670">
-    <i class="fa-brands fa-github"></i>
-</a>
-</div>
-
-<div class="btn-group">
-<a href="#" class="btn">Hire</a>
-<a href="#" class="btn">Contact</a>
-</section>
-
-
-
-<section class="about" id="about">
+<nav class="navbar" id="home">
+<div class="navdiv">
     
-
-<div class="about-content">
-<h2>About<span>Me</span></h2>
-<p>Hello, I'm Mahnoor Fatima, currently pursuing a Bachelor's degree in Computer Science (BSCS) with a deep passion for web development and programming. My journey into the world of technology began with a curiosity about how websites are created and the logic behind programming languages.In my academic journey, I have developed a strong foundation in both frontend and backend development. I am proficient in HTML, CSS, JavaScript, and have experience using frameworks like Bootstrap to craft responsive and visually appealing websites. Courses in database management, algorithms, and software engineering have equipped me with the skills necessary to tackle complex challenges in the field.</p>
-  <a href="#" class="btn"></a>
-    </div>
-    <div class="about-image">
-        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaW5hdnBuZJAuZf8oXSk5M9L5IeOV8asLRKw&s   " alt="error">
-        
-        </div>
-    
-</section>
-
-
-
-<section class="Services" id="services">
-    <h2 class="heading" ><span>My </span> Services</h2>
-<div class="services-container">
-    <div class="service-box">
-        <div class="services-info">
-            <i class="fas fa-code"></i>
-<h4>Web Development</h4>
-<p>I specialize in creating responsive and user-centric websites that enhance online presence and functionality. With expertise in HTML, CSS, JavaScript, and frameworks like React, I ensure seamless integration of design and functionality to deliver engaging web experiences.</p>
-      </div>
-    </div>
-
-    <div class="service-box">
-        <div class="services-info">
-            <i class="fas fa-briefcase"></i>
-<h4>Office Management</h4>
-<p>Office ManagementI excel in optimizing office operations to enhance efficiency and productivity. With a keen eye for detail and strong organizational skills, I streamline processes and support teams to achieve their goals seamlessly.</p>
-      </div>
-    </div>
-
-    <div class="service-box">
-        <div class="services-info">
-            <i class='fas fa-gamepad'></i>
-<h4>Game Development</h4>
-<p>As a passionate game developer, I bring creative concepts to life through immersive gameplay experiences. My expertise spans from designing captivating storylines to implementing engaging mechanics, ensuring every game delivers excitement and entertainment</p>
-      </div>
-    </div>
-
-
-    <div class="service-box">
-        <div class="services-info">
-            <i class="bx bxs-devices"></i>
-<h4>Android Development</h4>
-<p>Specializing in Android app development, I craft innovative mobile solutions that cater to modern user needs. With proficiency in Java, Kotlin, and Android Studio, I create user-friendly interfaces and robust applications that enhance functionality and user experience.</p>
-      </div>
-    </div>
-
-    <div class="service-box">
-        <div class="services-info">
-            <i class="fas fa-pencil-ruler"></i>
-<h4>Graphic designing</h4>
-<p>Graphic DesignWith a passion for visual storytelling, I specialize in crafting compelling designs that resonate with audiences. From branding and digital illustrations to UI/UX design, I blend creativity with strategy to create visually captivating solutions that elevate brand identity and user experience.</p>
-      </div>
-    </div>
-
+<div class="logo"><span>M</span>ahnoor <span>F</span>atima</div>
+    <ul class="header">  
+     <li><a href="#home">Home</a></li>  
+     <li><a href="#about">About</a></li>  
+     <li><a href="#contact">Contact</a></li>  
+     <li><a href="#service">Service</a></li>  
+</ul>
 </div>
-</section>
-
-
-<section class="contact" id="contact">
-<h2 class="heading">Contact <span>Me</span></h2>
-<form action="">
-
-<div class="input-group">
-
-<div class="input-box">
-    <input type="text" placeholder="Your Name">
-    <input type="text" placeholder="Your Number">
-</div>
-
-<div class="input-box">
-    <input type="text" placeholder="Your subject">
-    <input type="text" placeholder="Your Email">
-</div>
-</div>
-
-<div class="input-group2">
-  <textarea name="" id="" col="30" row="10" placeholder="Enter Your message Here"></textarea>
+</nav>
 <br>
-<input type="submit" value="Send Your Message" class="btn1">
 
+<section class="home1">
+<div class="firstsection">
+    <h2><span class="first"> Welcome in my feed</span><br/>
+    
+        Hy!It's me 
+    <br/><span class="second">Mahnoor Fatima</span>
+    
+    <br/>
+    <span class="text" style="color:aliceblue" > </span>
+
+</h2> 
+
+
+    <img src=" https://i.pinimg.com/736x/b3/3c/35/b33c352b6c78c96620c5ccd753ce7b0c.jpg "  class="myimage"/> 
+    </div>
+   
+
+
+ <div class="btn1">
+<button class="btn">Download CV</button>
 </div>
-</form>
+
+    <div class="maindiv">
+<div class="available">
+<h3>  <span>Available On   </span></h3>
+<a href="#"><i class="fa-brands fa-github"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+<div class="working">
+    <h3><span>working On</span></h3>
+    <a href="#"><i class="fa-brands fa-node-js"></i></a>
+    <a href="#"><i class="fa-brands fa-react"></i></a>
+    <a href="#"><i class="fa-brands fa-angular"></i></a>   
+    </div>
+</div>
+<br>
+<div class="line" id="about"    ></div>
 </section>
 
-<footer class="footer">
+<br>
 
-    <div class="social-icons">
-        <a href=" https://www.linkedin.com/in/mahnoor-fatima-a82585281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-        
-        <a href="#">
-            <i class="fa-brands fa-facebook"></i>
-        </a>
-        <a href="https://wa.me/03229644082">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-        <a href="https://mahnoorfatima670.github.io/responsiveportfolio/">
-            <i class="fa-brands fa-github"></i>
-        </a>
+<div class="about1" >
+<div class="About">
+
+<h1>About</h1>
+<div class="top-border1"></div>
+<br>
+<p>Hi,My name is Mahnoor Fatima and I am a student at </p>
+ <p> college for women university.Programming is my passion</p>
+
+<br>
+<div><span>Profile</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Web Developer</div>
+<div><span>Language</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;English and Urdu</div>
+<div><span>Education</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Bachelor in Computer Science</div>
+<div> <span>Skills</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Html,Css,Java script,react js</div>
+<div> <span>Interest</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Coding,Teaching,Training</div>
+</div>
+
+
+
+
+
+
+
+<div>
+
+    <h1 class="edu">Education</h1>
+<div class="top-border1"></div>
+
+<br>
+
+
+<div class="maindiv1">
+    <div class="education1">
+    <h3 class="date1">2019-2021</h3>
+    <h5 class="study1">Higher Secondary School&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+
+    </div>
+
+    <div class="education2">
+        <h3 class="date2">2021-2024</h3>
+        <h5 class="study2">Bachelor in computer Science</h5>
+
         </div>
-        
-   <ul class="list">
-<li><a href="">Frequently ask questions</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#contact">Contact</a></li>
-   </ul>     
-<p class="copyright">Mahnoor Fatima|All Rights Reserved</p>
+    </div>
+</div>
+</div>
+
+
+<br>
+    <div class="top-border1" id="service"></div>
+<br>
+
+<h3  id="service"    style="color:aliceblue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My services</h3>
+<br>
+<div class="services">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" width="100px">
+<img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png" width="160px">
+<img src="  https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/946px-Javascript_badge.svg.png" width="100px">
+<img src=" https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png " width="100px" style="padding:-5px">
+</div>
+
+
+
+
+
+
+<div class="skill-container">
+    <div class="skill-box">
+        <div class="skill-label">HTML</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-label">CSS</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-label">JavaScript</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-label">React JS</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+        </div>
+    </div>
+
+
+    <!-- Add more skills as needed -->
+</div>
+
+
+<div class="top-border1"></div>
+<br>
+
+
+<h2 class="certi">Certificates</h2>
+<div class="certificates">
+
+<div><img src="images/img2.jpg.png" alt="no" width="200rem"></div>  
+<div><img src="images/img3.jpg-1.png" alt="no" width="200rem"></div>  
+<div><img src="images/img4.jpg-1.png" alt="no" width="200rem"></div>  
+<div><img src="images/img1.jpg-1.png" alt="no" width="200rem"></div>  
+</div>
+
+<div class="top-border1" id="contact"></div>
+<br>
+
+<div id="contact"><h3 style="color:aliceblue"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Me</h3> </div>
+<br>
+
+<div class="contact-form">
+    <form id="contactForm">
+        <div>
+        <label for="name">Your Name:&nbsp;</label>
+        <input type="text" id="name" name="name"   placeholder="ENTER YOUR NAME"   style="text-align: center;"  required>
+    </div>
+<br>
+    <div>
+        <label for="email">Your Email:&nbsp;</label>
+        <input type="email" id="email" name="email"   placeholder="ENTER YOUR EMAIL"   style="text-align: center;"        required>
+    </div>
+
+<br>
+    <div>
+        <label for="message"> Message:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea id="message" name="message"  placeholder="MESSAGE HERE"   style="text-align: center;"    required></textarea>
+    </div>
+ <br>   
+ <div>
+     <a href="mailto:mhafiza760@gmail.com" ><button class="btn2" type="button" >Send</button></a>
+    </div>
+
+</div>
+    </form>
+
+
+
+<div class="line" id="contact"    ></div>
+<footer>
+<ul>
+   <a href="#"><li>FAQ</li></a> 
+   <a href="#home"><li>Home</li></a> 
+   <a href="#about"><li>About</li></a> 
+   <a href="#service"><li>Services</li></a> 
+   <a href="#contact"><li>Contact</li></a> 
+
+</ul>
+
+<div class="available1">
+    <h3><span> Available On </span></h3>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+
 </footer>
-    <script src="script.js"></script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
