@@ -1,0 +1,713 @@
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar
+{
+    background-color:rgb(41, 40, 40);
+    
+}
+
+.navdiv
+{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+
+.logo .header
+{
+    position: relative;
+}
+
+.logo
+{
+    margin-top: 0.9rem;
+    padding: 0.625rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-style:unset;
+    text-decoration:wavy;
+    
+
+}
+
+
+
+/*.navbar
+{
+    position:relative;
+}
+
+*/
+.header li
+{ 
+    list-style: none;
+    color:whitesmoke;
+    font-weight: bold;
+    display: inline;
+    margin: 0 0.8rem;
+   
+    
+}
+
+
+.header li:hover
+{
+    
+    
+    background-color:rgb(223, 34, 34);
+    border-radius: 5%;
+    padding: 0.625rem;
+}
+
+.header a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.home1
+{
+margin:6rem 0;
+
+}
+
+body
+{
+    background-color: rgb(35, 35, 39);
+    box-sizing: border-box;
+   
+}
+.first
+{
+font-size:2rem;
+
+}
+.second
+{
+color: rgb(223, 34, 34);
+}
+
+.firstsection
+{
+    color: whitesmoke;
+    
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    padding: 1.875rem;
+    flex-direction:row;
+}
+
+.firstsection h2
+{
+    margin-top:3.125rem;
+}
+
+.myimage
+{
+    width: 12.5rem;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+
+.myimage:hover
+{
+
+    transition: 0.4s ease-in-out;
+}
+
+
+
+
+.btn1
+{
+    padding: 0.625rem;
+    margin-top: -25px;
+}
+
+
+
+.btn
+{
+    background-color: red;
+    border: none;
+    border-radius: 5%;
+    padding:0.9375rem;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-left:16.25rem ;
+
+}
+
+
+
+@keyframes bounce
+{
+
+    0% ,25%, 50%, 75%, 90% ,100%
+    {
+transform:translateY(0);
+    }
+    15%,40%
+    {
+        transform:translateY(-20px);
+    
+    }
+    65%,80%
+    {
+        transform: translateY(-15px);
+    }
+    95%
+    {
+        transform: translateY(-5px);
+    }
+} 
+
+.btn:hover
+{
+    animation: bounce 2s linear;
+}
+
+/*.particledistortion 
+{
+    color:red;
+    position:relative;
+    margin:0;
+    z-index: 1;
+    overflow: hidden;
+
+}
+.particledistortion:before
+{
+
+    content:"";
+    position: absolute;
+    left: 110;
+    animation: animate 5.5s linear forwards;
+    animation-delay: 0s;
+
+}
+@keyframes animate
+{
+    0%
+    {
+        left:200%;
+
+    }
+    100%
+    {
+        left: -20%;
+    }
+}*/
+.maindiv
+{
+    
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+
+    
+    
+
+}
+.available
+{
+    color: white;
+    padding: 1.875rem;
+    background-color:rgb(41, 40, 40);
+    height: 6.25rem;
+    width:11.25rem;
+    margin-left: 15rem;
+}
+
+.available i
+{
+    padding:0.625rem;
+}
+.working
+{
+    color: white;
+    padding: 1.875rem;
+    background-color:rgb(41, 40, 40);
+    height: 6.25rem;
+    width:11.25rem;
+    margin-right:14.0625rem;
+
+
+}
+
+.working i
+{
+    padding:0.625rem;
+}
+
+
+.about1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem 4rem;
+    flex-direction: column;
+}
+
+.About
+{
+    color: aliceblue;
+    
+}
+
+.About h1
+{
+    text-align: center;
+    margin-right: 0rem;
+    
+}
+
+
+
+.line
+{
+
+
+ 
+border: 0.125rem solid rgb(223, 34, 34);   ;
+    border-style:outset;
+    border-radius: 0.625rem;
+}
+
+.top-border1
+{
+    border-top: 0.125rem solid rgb(223, 34, 34); ;
+    width: 100%;
+    
+}
+
+
+.edu
+{
+    color:aliceblue;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+.maindiv1
+{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    color: aliceblue;
+    padding: 1.25rem;
+    align-items:center;
+    gap: 2rem;
+   
+
+
+}
+
+
+.education1
+{
+    background-color:rgb(41, 40, 40);
+    padding: 1.875rem;
+    
+
+}
+
+.education2
+{
+    background-color:rgb(41, 40, 40);
+    padding:1.875rem;
+}
+
+.date1
+{
+    color:rgb(223,34,34);
+}
+
+.date2
+{
+    color: rgb(223, 34, 34);
+}
+
+/*.services 
+{
+    background-color:rgb(41, 40, 40);
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    color: aliceblue;
+    display: inline;
+
+
+}
+
+.service1
+{
+    background-color:rgb(41, 40, 40);
+    padding: 30px;
+}
+.service2
+{
+    background-color:rgb(41, 40, 40);
+    padding: 30px;
+}
+.service3
+{
+    background-color:rgb(41, 40, 40);
+    padding: 30px;
+}
+.service4
+{
+    background-color:rgb(41, 40, 40);
+    padding: 30px;
+}
+*/
+
+.services
+{
+    text-align: center;
+    padding: 3.125rem;
+    
+    
+}
+#service
+{
+font-size: 1.5rem;
+text-align: center;
+
+}
+
+
+
+.skill-container {
+    width: 60%;
+    max-width: 20rem; 
+    margin: auto;
+    
+    /* 600px / 16px = 37.5rem */
+}
+
+.skill-box {
+    margin-bottom: 1.25rem; /* 20px / 16px = 1.25rem */
+   
+}
+
+.skill-label {
+    margin-bottom: 0.3125rem; /* 5px / 16px = 0.3125rem */
+    font-weight: bold;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 1.5625rem; /* 25px / 16px = 1.5625rem */
+    overflow: hidden;
+    height: 1rem; /* 25px / 16px = 1.5625rem */
+}
+
+.progress {
+    background-color:rgb(223, 34, 34);
+    height: 100%;
+    border-radius: 1.5625rem 0 0 1.5625rem; 
+    /* 25px / 16px = 1.5625rem */
+}
+
+
+
+.contact-form
+{
+    display: flex;
+    justify-content: center;
+    color:transparent;
+    margin-top: 3.7rem;
+    margin-bottom: 3.7rem;
+    align-items: center;
+    background-color:rgb(41, 40, 40);
+    padding: 2rem;
+    
+
+}
+
+form
+{
+    text-align: center;
+
+}
+
+
+form input
+{
+
+
+
+}
+
+.contact-form input
+{
+background: transparent;
+border:0.1rem solid grey;
+border-radius:0.625rem;
+padding:1rem;
+
+
+}
+
+
+
+
+
+.contact-form textarea
+{
+    background: transparent;
+border:0.1rem solid grey;
+border-radius:0.625rem;
+padding: 3rem;
+
+
+}
+
+
+#message
+{
+    width:10.6rem;
+}
+
+.btn2
+{
+background-color:red ;
+border-radius: 10%;
+padding:0.9375rem;
+color: whitesmoke;
+    cursor: pointer;
+    width: 6.25rem;
+    
+    align-items: center;
+    margin-left:5rem;
+
+}
+
+.btn2:hover
+{
+    animation: bounce 2s linear;
+}
+
+
+#contact
+{
+    text-align: center;
+}
+
+#service
+{
+    text-align: center;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1.5rem;
+    background-color:rgb(41, 40, 40);
+    gap:2rem;
+}
+
+footer li
+{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0.1rem;
+
+
+}
+
+footer a
+{
+color: aliceblue;
+text-decoration: none;
+
+}
+
+
+span
+{
+    color: rgb(223, 34, 34);
+    
+}
+
+
+.available1
+{
+    color: white;
+    padding: 1.25rem;
+    background-color:rgb(41, 40, 40);
+    height: 100px;
+    width:180px;
+    margin-left:4rem;
+}
+
+.available1 i
+{
+    padding:10px;
+}
+
+
+.certificates
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(41, 40, 40);
+    padding: 5rem;
+   
+}
+
+.certificates img
+{
+    border:2px solid red;
+}
+
+
+
+.certi  
+{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.text
+{
+    font-size: 1.4rem;
+}
+
+
+@media(max-width:1024px)
+{
+
+
+.maindiv
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+}
+
+.available
+{
+    margin:2rem 0;
+}
+
+
+.available1
+{
+    margin: 0 auto;
+}
+
+.working
+{
+    margin:2rem 0;
+}
+
+
+
+.btn1
+{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+    
+}
+
+.btn
+{   
+    margin-left: 0;
+    
+}
+
+
+.maindiv1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education1
+{
+    margin-left: 0;
+}
+
+.education2
+{
+    margin-left: 0;
+}
+
+
+.contact-form
+{
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+    
+}
+
+.btn2
+{
+    margin-left: 3rem;
+    margin: 0 auto;
+}
+#services
+{
+margin-left: 0;
+}
+
+
+
+.certificates
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer li
+{
+
+    list-style: none;
+    display: inline-block;
+  margin: 0 auto;
+
+}
+
+
+
+
+}
